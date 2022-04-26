@@ -12,7 +12,6 @@ if ((len(sys.argv) < 7 or len(sys.argv) > 7) and '-h' not in sys.argv):
 
 
 parser = OptionParser()
-#parser.add_option("-p", "--password", help="Password to spray with")
 parser.add_option("-f", "--inputfile", help="File with usernames")
 parser.add_option("-d", "--domain", help="Company domain")
 parser.add_option("-w", "--wait", help="Seconds to wait between each spray attempt")
